@@ -1,0 +1,46 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.mat-radio-group {
+  margin-top: 5px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-radio-group  mat-label {
+  margin-right: 15px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.datetime-zone {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datetime-zone div:first-child {
+  margin-right: 10px;
+}

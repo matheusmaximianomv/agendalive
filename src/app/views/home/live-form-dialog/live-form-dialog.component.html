@@ -1,0 +1,48 @@
+<h1 mat-dialog-title>Nova Live</h1>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="liveForm">
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome</mat-label>
+      <input matInput formControlName="name" name="name">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Canal</mat-label>
+      <input matInput formControlName="channel" name="channel">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Link (Embed)</mat-label>
+      <input matInput formControlName="url" name="url">
+    </mat-form-field>
+
+    <div class="datetime-zone">
+      <div>
+        <mat-form-field color="accent" class="example-full-width">
+          <mat-label>Data da Live:</mat-label>
+          <input matInput [matDatepicker]="picker2" formControlName="date" name="date">
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2 color="primary"></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="example-full-width">
+          <mat-label>Horário da Live:</mat-label>
+          <input matInput type="time" formControlName="time" name="time" #time>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <mat-radio-group aria-label="Essa Live ainda irá acontecer:" formControlName="disponible" name="disponible">
+      <mat-label>Live em espera:</mat-label>
+      <div>
+        <mat-radio-button value="true">Sim</mat-radio-button>
+        <mat-radio-button value="false">Não</mat-radio-button>
+      </div>
+    </mat-radio-group>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="handleSaveLive()">Salvar</button>
+  <button mat-button (click)="handleCloseDialog()">Cancelar</button>
+</div>

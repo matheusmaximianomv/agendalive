@@ -1,0 +1,14 @@
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <span class="toolbar-title">
+      AgendaLive
+      <mat-icon class="toolbar-icon">date_range</mat-icon>
+    </span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button (click)="handleOpenDialog()">
+      <mat-icon>add</mat-icon>
+      Live
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<app-live-list></app-live-list>

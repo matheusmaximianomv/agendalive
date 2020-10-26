@@ -1,0 +1,21 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar {
+  font-size: 1.5rem;
+  height: 80px;
+
+  display: flex;
+  justify-content: center ;
+}
+
+.toolbar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar-icon {
+  margin-left: 5px;
+}

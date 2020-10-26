@@ -1,0 +1,54 @@
+<mat-tab-group class="container">
+  <mat-tab label="PRÓXIMAS">
+    <mat-progress-bar mode="indeterminate" *ngIf="!loadingLivesNext"></mat-progress-bar>
+    <div class="content" *ngIf="loadingLivesNext">
+      <ng-container class="section-card" *ngFor="let live of livesNext">
+        <mat-card class="mat-card-live">
+          <mat-card-header class="mat-card-header-live">
+            <div>
+              <strong class="mat-card-header-live-title">{{live.name}}</strong>
+              <mat-chip class="mat-chip-date">
+                <strong class="mat-card-header-live-subtitle">{{live.date | localDateTime}}</strong>
+              </mat-chip>
+            </div>
+            <div>
+              <strong class="mat-card-header-live-subtitle">Canal: {{live.channel}}</strong>
+            </div>
+          </mat-card-header>
+
+          <mat-card-content class="mat-card-content-live">
+            <div class="mat-card-player-live">
+              <iframe class="mat-card-player-live" [src]="live.safeUrl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </ng-container>
+    </div>
+  </mat-tab>
+  <mat-tab label="REALIZADAS">
+    <mat-progress-bar mode="indeterminate" *ngIf="!loadingLivesPrevious"></mat-progress-bar>
+    <div class="content" *ngIf="loadingLivesPrevious">
+      <ng-container class="section-card" *ngFor="let live of livesPrevious">
+        <mat-card class="mat-card-live">
+          <mat-card-header class="mat-card-header-live">
+            <div>
+              <strong class="mat-card-header-live-title">{{live.name}}</strong>
+              <mat-chip class="mat-chip-date">
+                <strong class="mat-card-header-live-subtitle">{{live.date | localDateTime}}</strong>
+              </mat-chip>
+            </div>
+            <div>
+              <strong class="mat-card-header-live-subtitle">Canal: {{live.channel}}</strong>
+            </div>
+          </mat-card-header>
+
+          <mat-card-content class="mat-card-content-live">
+            <div class="mat-card-player-live">
+              <iframe class="mat-card-player-live" [src]="live.safeUrl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </ng-container>
+    </div>
+  </mat-tab>
+</mat-tab-group>
