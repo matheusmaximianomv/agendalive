@@ -1,115 +1,59 @@
 {
   "lives": [
     {
-      "id": 1,
-      "name": "Semi-final Worlds 2020 - League of Legends",
-      "channel": "LoL eSports BR",
-      "url": "https://www.youtube.com/embed/VbmQIjkG7us",
-      "date": "2020-10-24T20:30:00",
-      "disponible": true
-    },
-    {
-      "id": 2,
-      "name": "Semi-final Worlds 2020 - League of Legends",
-      "channel": "LoL eSports BR",
-      "url": "https://www.youtube.com/embed/VbmQIjkG7us",
-      "date": "2020-10-24T20:30:00",
-      "disponible": true
-    },
-    {
-      "id": 3,
-      "name": "Semi-final Worlds 2020 - League of Legends",
-      "channel": "LoL eSports BR",
-      "url": "https://www.youtube.com/embed/VbmQIjkG7us",
-      "date": "2020-10-24T20:30:00",
-      "disponible": true
-    },
-    {
-      "id": 4,
-      "name": "Semi-final Worlds 2020 - League of Legends",
-      "channel": "LoL eSports BR",
-      "url": "https://www.youtube.com/embed/VbmQIjkG7us",
-      "date": "2020-10-24T20:30:00",
-      "disponible": true
-    },
-    {
-      "id": 5,
-      "name": "Zé Neto e Cristiano - LIVE DRIVE-IN NA TERRA",
-      "channel": "Zé Neto e Cristiano",
-      "url": "https://www.youtube.com/embed/SUzcpF4f9dw",
-      "date": "2020-10-19T20:00:00",
+      "id": 289,
+      "name": "Full React Course 2020",
+      "channel": "freeCodeCamp",
+      "url": "https://www.youtube.com/embed/4UZrsTqkcW4",
+      "date": "2020-10-06T20:00:00-03:00",
       "disponible": false
     },
     {
-      "id": 6,
-      "name": "Zé Neto e Cristiano - LIVE DRIVE-IN NA TERRA",
-      "channel": "Zé Neto e Cristiano",
-      "url": "https://www.youtube.com/embed/SUzcpF4f9dw",
-      "date": "2020-10-19T20:00:00",
-      "disponible": false
-    },
-    {
-      "id": 7,
-      "name": "Zé Neto e Cristiano - LIVE DRIVE-IN NA TERRA",
-      "channel": "Zé Neto e Cristiano",
-      "url": "https://www.youtube.com/embed/SUzcpF4f9dw",
-      "date": "2020-10-19T20:00:00",
-      "disponible": false
-    },
-    {
-      "id": 8,
-      "name": "Zé Neto e Cristiano - LIVE DRIVE-IN NA TERRA",
-      "channel": "Zé Neto e Cristiano",
-      "url": "https://www.youtube.com/embed/SUzcpF4f9dw",
-      "date": "2020-10-19T20:00:00",
-      "disponible": false
-    },
-    {
-      "id": 71,
-      "name": "Victoria Anthony - Smile Again ",
-      "channel": "Alan Walk",
-      "url": "https://www.youtube.com/embed/dhYOPzcsbGM",
-      "date": "2020-03-03T09:45:00",
-      "disponible": true
-    },
-    {
-      "id": 13,
-      "name": "Victoria Anthony - Smile Again ",
-      "channel": "Alan Walk",
-      "url": "https://www.youtube.com/embed/dhYOPzcsbGM",
-      "date": "2020-03-03T09:45:00",
-      "disponible": true
-    },
-    {
-      "id": 777,
-      "name": "Victoria Anthony - Smile Again ",
-      "channel": "Alan Walk",
-      "url": "https://www.youtube.com/embed/dhYOPzcsbGM",
-      "date": "2020-03-03T09:45:00",
-      "disponible": true
-    },
-    {
-      "id": 408,
-      "name": "Victoria Anthony - Smile Again ",
-      "channel": "Alan Walk",
-      "url": "https://www.youtube.com/embed/dhYOPzcsbGM",
-      "date": "2020-10-25T09:45:00-03:00",
-      "disponible": true
-    },
-    {
-      "id": 565,
-      "name": "Victoria Anthony - Smile Again ",
-      "channel": "Alan Walk",
-      "url": "https://www.youtube.com/embed/dhYOPzcsbGM",
-      "date": "2020-10-25T09:45:00-03:00",
-      "disponible": true
-    },
-    {
-      "id": 821,
-      "name": "Recriando home do Pinterest com HTML, Sass e JavaScript",
+      "id": 618,
+      "name": "Interfaces Expressivas com Flutter",
       "channel": "Rocketseat",
-      "url": "https://www.youtube.com/embed/XdqD8qi44Cg",
-      "date": "2020-10-30T10:00:00-03:00",
+      "url": "https://www.youtube.com/embed/jmpKx5IF7j0",
+      "date": "2020-10-27T19:00:00-03:00",
+      "disponible": false
+    },
+    {
+      "id": 967,
+      "name": "Salários, Mercado de Trabalho e o Futuro da Programação",
+      "channel": "Felipe Dechamps",
+      "url": "https://www.youtube.com/embed/uIOkpQa8PGU",
+      "date": "2020-10-19T19:00:00-03:00",
+      "disponible": false
+    },
+    {
+      "id": 183,
+      "name": "Angular: Organização dos Módulos, VSCode e boas práticas",
+      "channel": "GDG Salvador",
+      "url": "https://www.youtube.com/embed/u2JS49mtNQ4",
+      "date": "2020-10-25T14:00:00-03:00",
+      "disponible": false
+    },
+    {
+      "id": 322,
+      "name": "PERN Stack Course - Build a Yelp clone",
+      "channel": "FreeCodeCamp",
+      "url": "https://www.youtube.com/embed/J01rYl9T3BU",
+      "date": "2020-10-30T19:00:00-03:00",
+      "disponible": true
+    },
+    {
+      "id": 57,
+      "name": "Por que eu deveria te pagar mais de 10 mil reais como desenvolvedor?",
+      "channel": "DevPleno",
+      "url": "https://www.youtube.com/embed/9fJkyo6scXM",
+      "date": "2020-10-20T18:00:00-03:00",
+      "disponible": true
+    },
+    {
+      "id": 542,
+      "name": "Como virar líder de desenvolvimento?",
+      "channel": "Rocketseat",
+      "url": "https://www.youtube.com/embed/wNgjZXBPy8E",
+      "date": "2020-10-23T19:00:00-03:00",
       "disponible": true
     }
   ]

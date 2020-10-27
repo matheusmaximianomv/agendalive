@@ -20,21 +20,31 @@
 </div>
 
 ## Apresentação
+
 <p align="center">
 Aplicação desenvolvida no curso de Angular ministrado por Michelli Brito. Esse projeto tem como intuito auxiliar os usuários a organizar os vídeos ou lives que o usuário tem interesse de assistir ou armazenar os que já foram visualizados. O framework javascript utilizado foi o Angular, o motivo para tal escolha era o entendimento do seu funcionamento básico e o uso do typescript.
 <p align="center"><a href="https://www.youtube.com/playlist?list=PL8iIphQOyG-DSLV6qWs8wh37o0R_F9Q_Q">Link para o curso</a></p>
 
+## Projeto em Execução
+<p align="center">
+  <img src="../agendalive/.github/Adicionando_live.gif"></img>
+</p>
+
 ## Conceitos abordados
-* Angular (CLI)&nbsp;&nbsp;&nbsp;&nbsp;
-* Material Angular UI&nbsp;&nbsp;&nbsp;
-* TypeScript&nbsp;&nbsp;&nbsp;
-* Modules&nbsp;&nbsp;&nbsp;
-* Components&nbsp;&nbsp;&nbsp;
-* Services&nbsp;&nbsp;&nbsp;
-* Pipes&nbsp;&nbsp;&nbsp;
+
+- Angular (CLI)&nbsp;&nbsp;&nbsp;&nbsp;
+- Material Angular UI&nbsp;&nbsp;&nbsp;
+- TypeScript&nbsp;&nbsp;&nbsp;
+- Modules&nbsp;&nbsp;&nbsp;
+- Components&nbsp;&nbsp;&nbsp;
+- Services&nbsp;&nbsp;&nbsp;
+- Pipes&nbsp;&nbsp;&nbsp;
+- Json - Sever (Simulador de Backend)
 
 ## Executando o Projeto
-Para executar o projeto você precisa ter instalado o NPM ou o Yarn em sua máquina, em seguida, abra o terminal e execute os seguintes comandos:
+
+Para executar o projeto você precisa ter instalado o NPM em sua máquina, em seguida, abra o terminal e execute os seguintes comandos:
+
 1. Clone o projeto: `git clone https://github.com/matheusmaximianomv/agendalive`
 2. Entre na pasta: `cd agendalive/frontend`
 3. Instale as dependências: `npm install`
