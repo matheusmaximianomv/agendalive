@@ -27,7 +27,7 @@ Aplicação desenvolvida no curso de Angular ministrado por Michelli Brito. Esse
 
 ## Projeto em Execução
 <p align="center">
-  <img src="../agendalive/.github/Adicionando_live.gif"></img>
+  <img src="./.github/Adicionando_live.gif"></img>
 </p>
 
 ## Conceitos abordados
